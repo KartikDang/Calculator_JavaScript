@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    margin: auto;
+    background: #091921;
+    color: white;
+    font-size: larger;
+}
+.col
+{
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 7%;
+    text-align: center;
+    color: #fff;
+    background: #0c2835;
+    
+}
+.col:hover{
+    cursor: pointer;
+}
+.outputWindow{
+    border: 1px solid black;
+    background: white;
+    color: black;
+    width: 21.5%;
+    margin: auto;
+    padding-top: 4%;
+    
+
+}
+
+.buttons{
+    width: 20%;
+    margin:auto;
+}
+
+.clear{
+    background: #ff3077;
+}
+
+.equal{
+    background: #03b1ff;
+}
+
+h3{
+    text-align: right;
+    padding:2%;
+}
