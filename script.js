@@ -45,7 +45,7 @@ document.addEventListener("keydown",function(event)
         clearDisplay();
     }
 
-    if(b=="+"||b=="-"||b=="="||b=="/"||b=="*")
+    if(b=="+"||b=="-"||b=="="||b=="/"||b=="*"||b==".")
     {
         toDisplay(b);
     }
@@ -56,3 +56,13 @@ document.addEventListener("keydown",function(event)
     }
     
 });
+
+function buttonAnimation(value)
+{
+    document.querySelector("."+value).classList.add("pressed");
+
+    setTimeout(function()
+    {
+        document.querySelector("."+value).classList.remove("pressed");
+    },70);
+}

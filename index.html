@@ -29,36 +29,36 @@
     </div>
     <div class="buttons">
         <div class="row">
-            <div class="col col-6 clear" onclick="clearDisplay()">C</div>
-            <div class="col col-3" onclick="toDisplay('/')">/</div>
-            <div class="col col-3" onclick="toDisplay('*')">*</div>
+            <div class="col col-6 clear" onclick="clearDisplay();buttonAnimation('clear')">C</div>
+            <div class="col col-3 divide" onclick="toDisplay('/');buttonAnimation('divide')">/</div>
+            <div class="col col-3 multi" onclick="toDisplay('*');buttonAnimation('multi')">*</div>
         </div>
 
         <div class="row">
-            <div class="col col-3" onclick="toDisplay('7')">7</div>
-            <div class="col col-3" onclick="toDisplay('8')">8</div>
-            <div class="col col-3" onclick="toDisplay('9')">9</div>
-            <div class="col col-3" onclick="toDisplay('-')">-</div>
+            <div class="col col-3 seven" onclick="toDisplay('7');buttonAnimation('seven')">7</div>
+            <div class="col col-3 eight" onclick="toDisplay('8');buttonAnimation('eight')">8</div>
+            <div class="col col-3 nine" onclick="toDisplay('9');buttonAnimation('nine')">9</div>
+            <div class="col col-3 minus" onclick="toDisplay('-');buttonAnimation('minus')">-</div>
         </div>
 
         <div class="row">
-            <div class="col col-3" onclick="toDisplay('4')">4</div>
-            <div class="col col-3" onclick="toDisplay('5')">5</div>
-            <div class="col col-3" onclick="toDisplay('6')">6</div>
-            <div class="col col-3" onclick="toDisplay('+')">+</div>
+            <div class="col col-3 four" onclick="toDisplay('4');buttonAnimation('four')">4</div>
+            <div class="col col-3 five" onclick="toDisplay('5');buttonAnimation('five')">5</div>
+            <div class="col col-3 six" onclick="toDisplay('6');buttonAnimation('six')">6</div>
+            <div class="col col-3 add" onclick="toDisplay('+');buttonAnimation('add')">+</div>
         </div>
 
         <div class="row">
-                <div class="col col-3" onclick="toDisplay('1')">1</div>
-                <div class="col col-3" onclick="toDisplay('2')">2</div>
-                <div class="col col-3" onclick="toDisplay('3')">3</div>
-                <div class="col col-3 equal" onclick="Solve()">=</div>
+                <div class="col col-3 one" onclick="toDisplay('1');buttonAnimation('one')">1</div>
+                <div class="col col-3 two" onclick="toDisplay('2');buttonAnimation('two')">2</div>
+                <div class="col col-3 three" onclick="toDisplay('3');buttonAnimation('three')">3</div>
+                <div class="col col-3 equal" onclick="Solve();buttonAnimation('equal')">=</div>
         </div>
 
         <div class="row">
-            <div class="col col-3">0</div>
-            <div class="col col-3">00</div>
-            <div class="col col-3">.</div>
+            <div class="col col-3 zero"onclick="toDisplay('0');buttonAnimation('zero')">0</div>
+            <div class="col col-3 doublezero" onclick="toDisplay('00');buttonAnimation('doublezero')">00</div>
+            <div class="col col-3 point" onclick="toDisplay('.');buttonAnimation('point')">.</div>
             <div class="col col-3 equal" onclick="Solve()"> </div>
         </div>
 
